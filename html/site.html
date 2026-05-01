@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Journey!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <a href="#main">Skip to main content</a>
+</header>
+
+<nav>
+  <a href="aboutus.html">About Us</a>
+  <a href="objective.html">Our Objective</a>
+  <a href="contact.html">Contact Us</a>
+</nav>
+
+<h1>Happy Journey</h1>
+
+<p>
+  Happy Journey provides an accessible platform for all, irrespective of limitations, 
+  to explore the world at your wish. Want to visit <strong>India or abroad?</strong><br>
+  For a hassle-free journey, use this site!
+</p>
+
+<main id="main">
+
+  <h2>Travel Plan</h2>
+
+  <form action="/my_form.php">
+
+    <h3>Journey Details</h3>
+
+    <label for="from_station">From Station</label>
+    <input type="text" id="from_station" name="FromStation">
+
+    <label for="to_station">To Station</label>
+    <input type="text" id="to_station" name="ToStation">
+
+    <h3>Personal Details</h3>
+
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="FullName">
+
+    <label for="mobile">Mobile Number</label>
+    <input type="tel" id="mobile" name="MobileNo">
+
+    <label for="mail">Email</label>
+    <input type="email" id="mail" name="mail" required>
+
+    <fieldset>
+      <legend>Gender</legend>
+
+      <input type="radio" id="male" name="gender_mode" value="male">
+      <label for="male">Male</label><br>
+
+      <input type="radio" id="female" name="gender_mode" value="female">
+      <label for="female">Female</label><br>
+
+      <input type="radio" id="others" name="gender_mode" value="others">
+      <label for="others">Other</label>
+    </fieldset>
+
+    <h3>Date of Journey</h3>
+
+    <label for="doj">Choose your date</label>
+    <input type="date" id="doj" name="doj" required>
+
+    <fieldset>
+      <legend>Mode of Transport</legend>
+
+      <input type="radio" id="taxi" name="transport_mode" value="Taxi">
+      <label for="taxi">Taxi</label><br>
+
+      <input type="radio" id="bus" name="transport_mode" value="Bus">
+      <label for="bus">Bus</label><br>
+
+      <input type="radio" id="train" name="transport_mode" value="Train">
+      <label for="train">Train</label>
+    </fieldset>
+
+    <input type="submit" value="Submit" id="submit_btn">
+
+  </form>
+
+</main>
+
+<footer>
+  <ul>
+    <li><a href="terms.html">Terms and Conditions</a></li>
+    <li><a href="privacy.html">Privacy</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

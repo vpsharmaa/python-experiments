@@ -1,0 +1,117 @@
+/* Basic page setup */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Skip to main content (accessible) */
+header a {
+  position: absolute;
+  left: -999px;
+}
+
+header a:focus {
+  left: 10px;
+  top: 10px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 1000;
+}
+
+/* Navigation bar */
+nav {
+  background: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* Headings and text */
+h1 {
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
+}
+
+/* Main content */
+main {
+  margin: 20px;
+}
+
+/* Form styling */
+form {
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+/* Radio buttons (keep inline) */
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* Submit button */
+#submit_btn {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: #e63946;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#submit_btn:hover,
+#submit_btn:focus {
+  background: #c92a36;
+}
+
+/* Footer */
+footer {
+  background: #f1f1f1;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
